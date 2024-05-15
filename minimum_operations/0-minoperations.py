@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Module to calculate minimum operations to get n H characters."""
 def minimum_operations(n):
     list_of_factors = []
     while n > 1:
