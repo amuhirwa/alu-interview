@@ -8,8 +8,10 @@ def pascal_triangle(n):
     """
     Function to return a list of pascal triangle up to row n.
     Attributes:
-        n(integer): Number of rows of pascal triangle. 
+        n(integer): Number of rows of pascal triangle.
     """
+    if n <= 0:
+        return []
     if n < 2:
         return [[1 for _ in range(n)]]
     else:
